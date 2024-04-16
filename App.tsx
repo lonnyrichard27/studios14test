@@ -1,7 +1,7 @@
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './HomeScreen';
+import HomeScreen from './screens/HomeScreen';
 import { HomeDefault, LibraryIcon, SearchBox } from './components';
 import MenuIcon from './components/svgs/MenuIcon';
 

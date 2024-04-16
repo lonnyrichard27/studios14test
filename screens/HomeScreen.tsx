@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { MainCard, MovieCard } from './components';
+import { MainCard, MovieCard } from '../components';
 
 export default function HomeScreen() {
   return (
