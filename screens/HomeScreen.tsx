@@ -6,13 +6,13 @@ export default function HomeScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={{ alignItems: 'center', marginBottom: 20 }}>
-        <Image source={require('./assets/images/AUDIOTERIA-3D-SINGLE-LINE-reverse 1.png')} />
+        <Image source={require('../assets/images/AUDIOTERIA-3D-SINGLE-LINE-reverse 1.png')} />
       </View>
       <MainCard 
         showBox={true}
         mainText='DANDARE: Season 1'
         secondaryText='Step into the future with Dan Dare. It’s got addiction, abuse, drugs, financial ruin...'
-        imageSource={require('./assets/images/dandare.png')}
+        imageSource={require('../assets/images/dandare.png')}
       />
 
       {/* premiere release */}
@@ -22,12 +22,12 @@ export default function HomeScreen() {
           <MovieCard 
             mainText='Pilgrim'
             secondaryText='Step into Tudor Chambers. It’s got addiction, abuse, drugs, financial ruin...'
-            imageSource={require('./assets/images/img1.png')}
+            imageSource={require('../assets/images/img1.png')}
           />
           <MovieCard 
             mainText='Bad Seed'
             secondaryText='Step into the future with Dan Dare. It’s got addiction, abuse, drugs, financial ruin...'
-            imageSource={require('./assets/images/img2.jpg')}
+            imageSource={require('../assets/images/img2.jpg')}
           />
         </ScrollView>
       </View>
@@ -37,12 +37,12 @@ export default function HomeScreen() {
           <MovieCard 
             mainText='A game for Gentlemen'
             secondaryText='Step into the future with Dan Dare. It’s got addiction, abuse, drugs, financial ruin...'
-            imageSource={require('./assets/images/img3.jpg')}
+            imageSource={require('../assets/images/img3.jpg')}
           />
           <MovieCard 
             mainText='The Afterlives of Doctor Gachet'
             secondaryText='Step into the future with Dan Dare. It’s got addiction, abuse, drugs, financial ruin...'
-            imageSource={require('./assets/images/img4.jpg')}
+            imageSource={require('../assets/images/img4.jpg')}
           />
         </ScrollView>
       </View>
